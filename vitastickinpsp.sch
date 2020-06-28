@@ -1,0 +1,212 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0104
+U 1 1 5EC212F5
+P 5600 3200
+F 0 "#PWR0104" H 5600 2950 50  0001 C CNN
+F 1 "GND" H 5605 3027 50  0000 C CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EC21984
+P 5600 3200
+F 0 "#FLG0101" H 5600 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 5600 3373 50  0000 C CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "~" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EC21EF7
+P 6100 3200
+F 0 "#FLG0102" H 6100 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 6100 3373 50  0000 C CNN
+F 2 "" H 6100 3200 50  0001 C CNN
+F 3 "~" H 6100 3200 50  0001 C CNN
+	1    6100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5EC22563
+P 6100 3200
+F 0 "#PWR0105" H 6100 3050 50  0001 C CNN
+F 1 "VCC" H 6118 3373 50  0000 C CNN
+F 2 "" H 6100 3200 50  0001 C CNN
+F 3 "" H 6100 3200 50  0001 C CNN
+	1    6100 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L FH19C-6S-0.5SH_05_:FH19C-6S-0.5SH_05_ J1
+U 1 1 5EC23356
+P 4100 5500
+F 0 "J1" V 4546 4872 50  0000 R CNN
+F 1 "FH19C-6S-0.5SH_05_" V 4455 4872 50  0000 R CNN
+F 2 "FH19C-6S-0.5SH_05_:FH19C6S05SH05" H 4750 5600 50  0001 L CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1422/0900766b8142267d.pdf" H 4750 5500 50  0001 L CNN
+F 4 "Hirose FH19 0.5mm Pitch 6 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact" H 4750 5400 50  0001 L CNN "Description"
+F 5 "1" H 4750 5300 50  0001 L CNN "Height"
+F 6 "Hirose" H 4750 5200 50  0001 L CNN "Manufacturer_Name"
+F 7 "FH19C-6S-0.5SH(05)" H 4750 5100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "798-FH19C6S0.5SH05" H 4750 5000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=798-FH19C6S0.5SH05" H 4750 4900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "7726939" H 4750 4800 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7726939" H 4750 4700 50  0001 L CNN "RS Price/Stock"
+	1    4100 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EC27DC7
+P 4100 5500
+F 0 "#PWR0106" H 4100 5250 50  0001 C CNN
+F 1 "GND" H 4105 5327 50  0000 C CNN
+F 2 "" H 4100 5500 50  0001 C CNN
+F 3 "" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5EC283FC
+P 4200 5500
+F 0 "#PWR0107" H 4200 5250 50  0001 C CNN
+F 1 "GND" H 4205 5327 50  0000 C CNN
+F 2 "" H 4200 5500 50  0001 C CNN
+F 3 "" H 4200 5500 50  0001 C CNN
+	1    4200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5EC29787
+P 4100 4700
+F 0 "#PWR0109" H 4100 4450 50  0001 C CNN
+F 1 "GND" V 4105 4572 50  0000 R CNN
+F 2 "" H 4100 4700 50  0001 C CNN
+F 3 "" H 4100 4700 50  0001 C CNN
+	1    4100 4700
+	0    1    1    0   
+$EndComp
+NoConn ~ 4200 4700
+NoConn ~ 4600 4700
+$Comp
+L power:VCC #PWR0110
+U 1 1 5EC29F09
+P 4300 4700
+F 0 "#PWR0110" H 4300 4550 50  0001 C CNN
+F 1 "VCC" H 4317 4873 50  0000 C CNN
+F 2 "" H 4300 4700 50  0001 C CNN
+F 3 "" H 4300 4700 50  0001 C CNN
+	1    4300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4700 4400 4300
+Wire Wire Line
+	4500 4350 4500 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5EE863DD
+P 8100 4800
+F 0 "#PWR?" H 8100 4550 50  0001 C CNN
+F 1 "GND" V 8105 4672 50  0000 R CNN
+F 2 "" H 8100 4800 50  0001 C CNN
+F 3 "" H 8100 4800 50  0001 C CNN
+	1    8100 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5EE863E3
+P 8100 4600
+F 0 "#PWR?" H 8100 4450 50  0001 C CNN
+F 1 "VCC" V 8117 4728 50  0000 L CNN
+F 2 "" H 8100 4600 50  0001 C CNN
+F 3 "" H 8100 4600 50  0001 C CNN
+	1    8100 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE863EE
+P 7200 4500
+F 0 "#PWR?" H 7200 4250 50  0001 C CNN
+F 1 "GND" V 7205 4372 50  0000 R CNN
+F 2 "" H 7200 4500 50  0001 C CNN
+F 3 "" H 7200 4500 50  0001 C CNN
+	1    7200 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE863F4
+P 7200 4600
+F 0 "#PWR?" H 7200 4350 50  0001 C CNN
+F 1 "GND" V 7205 4472 50  0000 R CNN
+F 2 "" H 7200 4600 50  0001 C CNN
+F 3 "" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 2328702-4:2328702-4 J?
+U 1 1 5EE863D7
+P 7200 4500
+F 0 "J?" H 7650 4765 50  0000 C CNN
+F 1 "2328702-4" H 7650 4674 50  0000 C CNN
+F 2 "2328702-4:23287024" H 7950 4600 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2328702%7F5%7Fpdf%7FEnglish%7FENG_CD_2328702_5.pdf%7F2328702-4" H 7950 4500 50  0001 L CNN
+F 4 "FFC & FPC Connectors 4 PIN FPC CONNECTOR 0.5mmP BACK FLIP LCK" H 7950 4400 50  0001 L CNN "Description"
+F 5 "1.05" H 7950 4300 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 7950 4200 50  0001 L CNN "Manufacturer_Name"
+F 7 "2328702-4" H 7950 4100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "571-2328702-4" H 7950 4000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-2328702-4" H 7950 3900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7950 3800 50  0001 L CNN "RS Part Number"
+F 11 "" H 7950 3700 50  0001 L CNN "RS Price/Stock"
+F 12 "71364578" H 7950 3600 50  0001 L CNN "Allied_Number"
+F 13 "https://www.alliedelec.com/te-connectivity-2328702-4/71364578/" H 7950 3500 50  0001 L CNN "Allied Price/Stock"
+	1    7200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4300 6900 4050
+Wire Wire Line
+	6900 4050 8100 4050
+Wire Wire Line
+	8100 4050 8100 4500
+Wire Wire Line
+	6850 4350 6850 5100
+Wire Wire Line
+	6850 5100 8650 5100
+Wire Wire Line
+	8650 5100 8650 4700
+Wire Wire Line
+	8650 4700 8100 4700
+Wire Wire Line
+	4400 4300 6900 4300
+Wire Wire Line
+	4500 4350 6850 4350
+$EndSCHEMATC
