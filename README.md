@@ -15,3 +15,6 @@ Passive adapter to connect a Vita 2000 joystick to the PSP 3000
 - You might need to use the PSP CFW plugin "joysens" to calibrate your joystick and get the centering perfect.
 - The FFC cable can be a tight fit in the PSP joystick connector. Be careful not to break the connector!
 - If you want to use this on a different PSP model, just leave the 4 pin FPC off the board, and solder individual wires instead.
+
+##
+![vita stick installed in psp](vitastickpsp.jpg)
