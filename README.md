@@ -1,6 +1,8 @@
 # VitaStickForPSP3000
 Passive adapter to connect a Vita 2000 joystick to the PSP 3000
 
+![board photo](board.png)
+
 [Order on OSH Park](https://oshpark.com/projects/QKcgvzcN)
 
 ## BOM
